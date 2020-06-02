@@ -1,0 +1,40 @@
+@charset "UTF-8";
+/**
+ * custom.scss
+ * 
+ * Diese Datei überschreibt native Bootstrap4-Klassen 
+ * 
+ */
+.jumbotron {
+  border-radius: 0px;
+  background-color: white;
+}
+
+.card {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 0px;
+}
+
+.card .card-header {
+  border-radius: 0px !important;
+}
+
+.card .card-title {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+button:focus {
+  outline: none !important;
+}
+
+button.navbar-toggler {
+  border: none;
+}
+
+.btn {
+  border-radius: 0px;
+  padding: 2px 5px;
+}
+/*# sourceMappingURL=custom.css.map */

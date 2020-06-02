@@ -1,0 +1,48 @@
+/**
+ * custom.scss
+ * 
+ * Diese Datei überschreibt native Bootstrap4-Klassen 
+ * 
+ */
+
+$iboRed: #e40134; 
+$iboAnthrazit : #375460; 
+$iboAnthrazit50: #98afbd; 
+$iboAnthrazit25: #bacbd5; 
+$iboAnthrazit10: #f9f9f9;
+$brightGray:#e1e1e1; 
+$iboPurpleDark:#831f82;
+
+.jumbotron {
+    border-radius: 0px;
+    background-color: white; 
+}
+
+.card {
+    margin-top: 1rem; 
+    margin-bottom: 1rem; 
+    border-radius: 0px;
+    .card-header {
+        border-radius: 0px !important;
+    }
+
+    .card-title {
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+    
+}
+
+button:focus {
+    outline: none !important; 
+}
+
+button.navbar-toggler {
+    border: none; 
+}
+
+.btn {
+    border-radius: 0px;
+    padding: 2px 5px; 
+}
+
